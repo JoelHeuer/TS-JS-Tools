@@ -1,0 +1,26 @@
+Object = JS-Object or JSON
+
+[KEY Operation]
+getAmountOfKeys     (obj):number                    get #keys in Object [warning: arrays without keys]
+getAllKeys          (obj):string[]                  get all keys 
+getKeys             (obj, value):string[]           get keys of value, if value exists
+isKey               (obj, key):boolean              does key exist in obj
+
+
+
+[VALUE Operation]
+getAllValues        (obj):any[]                     get all values [assumption: even string-values?]
+getValue            (obj, path):any                 get value of obj-path e.g. xxx.yyy.zzz
+getDuplicates       (obj):{any,number, string[]}[]  give all duplicated values + their amount of copies, filter with string[] which types you want to check
+countWords          (obj):number                    counts all words of values of type string 
+
+
+
+
+[OTHER Operation]
+merge               (obj1, obj2):any                 merge obj1 and obj2 (definition: what does merge mean here?)
+filter 
+filterRecursive 
+map
+mapRecursive
+trim                (obj, string, boolean):any      boolean=true means string=key, false means string=value. removes everything from obj after string appears for the first time
