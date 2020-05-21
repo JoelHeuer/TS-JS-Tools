@@ -1,10 +1,10 @@
 Object = JS-Object or JSON
 
 [KEY Operation]
-getAmountOfKeys     (obj):number                    get #keys in Object [warning: arrays without keys]
-getAllKeys          (obj):string[]                  get all keys 
+(x) getAmountOfKeys     (obj):number                    get #keys in Object [warning: arrays without keys]
+(x) getAllKeys          (obj):string[]                  get all keys 
 getKeys             (obj, value):string[]           get keys of value, if value exists
-isKey               (obj, key):boolean              does key exist in obj
+(x) isKey               (obj, key):boolean              does key exist in obj
 getIndexFlat        (obj, key):number               get flat index of key
 getIndexDeep        (obj, key):number               get nested index
 
