@@ -18,20 +18,13 @@ export type GetAllKeys = (obj:any) => string[];
 /**
  * 
  * @param obj 
- * @param value 
- * 
- * get keys of value in obj, if value exists
- */
-export type GetKeys = (obj, value) => string[];
-
-/**
- * 
- * @param obj 
  * @param key 
  * 
  * returns true if key exists in obj
  */
 export type IsKey = (obj, key) => boolean;            
+
+
 
 /*================[VALUE OPERATIONS]================*/
 export type GetAllValues = (obj) => any[];
