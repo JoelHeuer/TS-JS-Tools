@@ -1,6 +1,6 @@
-import { getAmountOfKeys } from './implemantion';
+import { getAmountOfKeys, getAllKeys} from './implemantion';
 const exampleJSON = Object.freeze(require("../defaultJson.json"));
 
 
 
-console.log(getAmountOfKeys(exampleJSON))
+console.log(getAllKeys(exampleJSON))

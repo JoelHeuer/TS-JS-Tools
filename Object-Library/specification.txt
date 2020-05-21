@@ -5,7 +5,8 @@ getAmountOfKeys     (obj):number                    get #keys in Object [warning
 getAllKeys          (obj):string[]                  get all keys 
 getKeys             (obj, value):string[]           get keys of value, if value exists
 isKey               (obj, key):boolean              does key exist in obj
-
+getIndexFlat        (obj, key):number               get flat index of key
+getIndexDeep        (obj, key):number               get nested index
 
 
 [VALUE Operation]
@@ -24,3 +25,4 @@ filterRecursive
 map
 mapRecursive
 trim                (obj, string, boolean):any      boolean=true means string=key, false means string=value. removes everything from obj after string appears for the first time
+createTree          (obj):any                       creates tree based on obj
